@@ -2,9 +2,762 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Résumé</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    ― Hello World! &#x1F609;
+    <main>
+      <div class="resume">
+        <div class="container">
+          <div class="resume__block">
+            <h1 class="contact-info__header">Nikita Yeldynov</h1>
+            <h3 class="contact-info__sub-header">Javascript Developer</h3>
+
+            <div class="contact_info_container fh">
+              <div class="contact-info__block">
+                <a
+                  target="_blank"
+                  href=""
+                  rel="author"
+                  class="contact-info__item"
+                >
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      class="contact-info__item-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 384 512"
+                    >
+                      <path
+                        d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <span>Kharkiv, Ukraine</span>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/nikita-yeldynov-716b7214a/"
+                  rel="author"
+                  class="contact-info__item"
+                >
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      class="contact-info__item-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                    >
+                      <path
+                        d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <span>Linkedin</span>
+                </a>
+                <a
+                  target="_blank"
+                  href="mailto:yeldynov@gmail.com"
+                  rel="author"
+                  class="contact-info__item"
+                >
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="1em"
+                      viewBox="0 0 512 512"
+                    >
+                      <path
+                        d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"
+                      />
+                    </svg>
+                  </div>
+                  <span>yeldynov@gmail.com</span>
+                </a>
+                <a
+                  target="_blank"
+                  href="tel:+380979693424"
+                  rel="author"
+                  class="contact-info__item"
+                >
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="1em"
+                      viewBox="0 0 512 512"
+                    >
+                      <path
+                        d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"
+                      />
+                    </svg>
+                  </div>
+                  <span>+380-97-96-93-424</span>
+                </a>
+              </div>
+
+              <div class="contact-info__block contact-info__block--center">
+                <img
+                  class="contact-info__avatar"
+                  src="assets/avatar.jpg"
+                  alt="Avatar"
+                />
+              </div>
+
+              <div class="contact-info__block">
+                <a
+                  target="_blank"
+                  href="https://github.com/yeldynov"
+                  rel="author"
+                  class="contact-info__item"
+                >
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="1.5em"
+                      viewBox="0 0 496 512"
+                    >
+                      <path
+                        d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                      />
+                    </svg>
+                  </div>
+                  <span>github</span>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://www.codewars.com/users/yeldynov%20/"
+                  rel="author"
+                  class="contact-info__item"
+                >
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      role="img"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.072.142A1.072 1.072 0 0 0 0 1.214v21.572a1.072 1.072 0 0 0 1.072 1.072h21.856A1.072 1.072 0 0 0 24 22.786V1.214A1.072 1.072 0 0 0 22.928.142zm9.736 1.818a.904.904 0 0 1 .828.539.784.784 0 0 1 1.274.493.639.639 0 0 1 .29-.06c.33.008.59.262.625.575a1.322 1.322 0 0 1 .624-.515 1.325 1.325 0 0 1 1.718.71 1.098 1.098 0 0 1 .306-.236 1.102 1.102 0 0 1 1.483.479 1.094 1.094 0 0 1 .12.47.994.994 0 0 1 1.322 1.214.904.904 0 0 1 .874 1.438.784.784 0 0 1 .176 1.356.639.639 0 0 1 .19.224.642.642 0 0 1-.011.613 1.326 1.326 0 0 1 .482.235 1.334 1.334 0 0 1 .258 1.842 1.098 1.098 0 0 1 .35.15 1.102 1.102 0 0 1 .337 1.516 1.094 1.094 0 0 1-.344.344.994.994 0 0 1 .228 1.318 1.006 1.006 0 0 1-.605.434.904.904 0 0 1-.803 1.482.814.814 0 0 0-.008-.04.784.784 0 0 1-1.075.873.639.639 0 0 1-.098.28.625.625 0 0 1-.43.288 1.33 1.33 0 0 1 .023.456 1.334 1.334 0 0 1-1.44 1.173 1.098 1.098 0 0 1 .054.377 1.102 1.102 0 0 1-1.128 1.072 1.098 1.098 0 0 1-.47-.12.994.994 0 0 1-1.696.583.904.904 0 0 1-1.685.075.784.784 0 0 1-1.274-.493.639.639 0 0 1-.29.064.64.64 0 0 1-.621-.58l.004-.007a1.326 1.326 0 0 1-.632.523 1.334 1.334 0 0 1-1.718-.706 1.098 1.098 0 0 1-.306.232 1.102 1.102 0 0 1-1.48-.478 1.094 1.094 0 0 1-.123-.471.994.994 0 0 1-1.318-1.21.904.904 0 0 1-.874-1.442.784.784 0 0 1-.176-1.356.639.639 0 0 1-.194-.224.642.642 0 0 1 .011-.61l.019.004a1.326 1.326 0 0 1-.497-.239 1.334 1.334 0 0 1-.262-1.845 1.098 1.098 0 0 1-.35-.146 1.102 1.102 0 0 1-.337-1.52 1.094 1.094 0 0 1 .347-.34A.994.994 0 0 1 2.88 9a.904.904 0 0 1 .803-1.48.784.784 0 0 1 1.083-.836.639.639 0 0 1 .098-.28.649.649 0 0 1 .433-.288 1.33 1.33 0 0 1-.026-.452A1.334 1.334 0 0 1 6.716 4.49a1.098 1.098 0 0 1-.06-.377 1.101 1.101 0 0 1 1.13-1.073 1.094 1.094 0 0 1 .47.115.994.994 0 0 1 1.696-.579.904.904 0 0 1 .857-.617zM3.683 7.519a.784.784 0 0 0 .008.041l-.004-.04a.904.904 0 0 0-.004-.001zM17.502 19.61a1.098 1.098 0 0 0-.002-.004h-.037a1.334 1.334 0 0 0 .039.004zM13.825 3.507a1.322 1.322 0 0 0-.008.012l.008-.011zm-2.369-.014l-.003.003a.9.9 0 0 1-.665.27.896.896 0 0 1-.583-.232.994.994 0 0 1-.986.732.99.99 0 0 1-.362-.075 1.098 1.098 0 0 1-1.061 1.046 1.326 1.326 0 0 1 .123.736 1.334 1.334 0 0 1-.725 1.035 1.1 1.1 0 0 1 .307.795 1.106 1.106 0 0 1-.232.65c.321.18.53.523.523.915a1.016 1.016 0 0 1-.07.337.915.915 0 0 1 .82.937.923.923 0 0 1-.01.138.74.74 0 0 1 .157-.01c.343.007.627.25.702.57a.661.661 0 0 1 .38-.111c.31.007.561.224.632.511a.418.418 0 0 1 .381-.015 1.352 1.352 0 0 1 .303-.63.418.418 0 0 1-.12-.143.422.422 0 0 1 .004-.392.665.665 0 0 1-.325-1.117.736.736 0 0 1-.359-.336.74.74 0 0 1 .385-1.023.747.747 0 0 0-.06.026.915.915 0 0 1-.201-.262.915.915 0 0 1 .623-1.315V6.53a1.02 1.02 0 0 1 .437-1.371 1.012 1.012 0 0 1 .553-.112 1.11 1.11 0 0 1 .598-1.054 1.12 1.12 0 0 1 .06-.026.642.642 0 0 1-.109-.21.784.784 0 0 1-.455.132.784.784 0 0 1-.662-.396zm4.573 1.512a1.326 1.326 0 0 1-.587.46 1.334 1.334 0 0 1-1.255-.142v-.011a1.11 1.11 0 0 1-.553.66 1.106 1.106 0 0 1-.683.113 1.02 1.02 0 0 1-.553.889 1.016 1.016 0 0 1-.329.105.918.918 0 0 1-.43 1.169.923.923 0 0 1-.127.056.74.74 0 0 1 .086.13.738.738 0 0 1-.168.89.661.661 0 0 1 .28.283.655.655 0 0 1-.149.796.418.418 0 0 1 .153.164c.019.034.03.068.038.101a1.356 1.356 0 0 1 .672-.015.422.422 0 0 1 .056-.142.422.422 0 0 1 .34-.194.665.665 0 0 1 .796-.848.736.736 0 0 1 .112-.478.733.733 0 0 1 1.016-.224.915.915 0 0 1 .127-.306.915.915 0 0 1 1.27-.28.915.915 0 0 1 .179.153 1.02 1.02 0 0 1 1.408-.314 1.012 1.012 0 0 1 .374.422c.355-.24.833-.261 1.214-.015a1.11 1.11 0 0 1 .209.172.642.642 0 0 1 .082-.108.784.784 0 0 1-.332-.337.784.784 0 0 1 .03-.77.9.9 0 0 1-.553-.455.896.896 0 0 1-.075-.624.994.994 0 0 1-1.117-.511.994.994 0 0 1-.104-.359 1.098 1.098 0 0 1-1.427-.43zM5.249 7.37a.784.784 0 0 1-.124.46.784.784 0 0 1-.68.362c.06.235.026.49-.112.71a.896.896 0 0 1-.5.377c.31.325.373.829.12 1.225a.99.99 0 0 1-.255.269 1.098 1.098 0 0 1 .351 1.45 1.326 1.326 0 0 1 .691.276 1.334 1.334 0 0 1 .512 1.154c.28-.064.579-.019.84.15a1.106 1.106 0 0 1 .438.53 1.02 1.02 0 0 1 1.05.03 1.016 1.016 0 0 1 .257.231.914.914 0 0 1 1.225-.224.919.919 0 0 1 .112.086.74.74 0 0 1 .071-.142.74.74 0 0 1 .852-.306.661.661 0 0 1 .1-.381.664.664 0 0 1 .763-.273.418.418 0 0 1 .246-.373 1.36 1.36 0 0 1-.358-.523v-.008a.418.418 0 0 1-.25.075.422.422 0 0 1-.344-.19.665.665 0 0 1-1.132-.243.736.736 0 0 1-.47.149.733.733 0 0 1-.718-.755.915.915 0 0 1-.329.049.915.915 0 0 1-.855-1.177h-.004a1.016 1.016 0 0 1-.993-1.042 1.012 1.012 0 0 1 .168-.534 1.11 1.11 0 0 1-.64-1.035 1.11 1.11 0 0 1 .068-.358.65.65 0 0 1-.1-.019zm11.127 2.133a.913.913 0 0 1-1.225.224.926.926 0 0 1-.112-.082.74.74 0 0 1-.067.142.74.74 0 0 1-.852.302.661.661 0 0 1-.105.385.662.662 0 0 1-.762.277.418.418 0 0 1-.063.212.426.426 0 0 1-.075.086 1.356 1.356 0 0 1 .314.564.418.418 0 0 1 .187-.04.422.422 0 0 1 .343.194.665.665 0 0 1 1.136.242.736.736 0 0 1 .467-.153c.41.008.728.348.72.755a.74.74 0 0 1 0 .008v-.005a.915.915 0 0 1 .326-.052.915.915 0 0 1 .896.941.919.919 0 0 1-.037.236c.564.015 1.008.482.993 1.046a1.012 1.012 0 0 1-.168.534 1.11 1.11 0 0 1 .647 1.035 1.11 1.11 0 0 1-.075.362l.004-.007.1.018a.784.784 0 0 1 .124-.46.784.784 0 0 1 .68-.362.9.9 0 0 1 .112-.71.896.896 0 0 1 .504-.373.994.994 0 0 1-.123-1.225.99.99 0 0 1 .257-.269 1.098 1.098 0 0 1-.35-1.453 1.326 1.326 0 0 1-.696-.273h-.003a1.334 1.334 0 0 1-.512-1.158 1.082 1.082 0 0 1-.837-.145 1.106 1.106 0 0 1-.44-.535 1.02 1.02 0 0 1-1.05-.026 1.016 1.016 0 0 1-.258-.235zm-.094 3.116l-.007.066a.74.74 0 0 0 .007-.066zm-2.864-.259a1.36 1.36 0 0 1-.363.598.418.418 0 0 1 .194.187.422.422 0 0 1-.007.396.665.665 0 0 1 .329 1.113.736.736 0 0 1 .358.336.739.739 0 0 1-.32.994.915.915 0 0 1 .197.261.91.91 0 0 1-.396 1.233.919.919 0 0 1-.224.082v.004a1.02 1.02 0 0 1-.44 1.374 1.012 1.012 0 0 1-.55.109 1.11 1.11 0 0 1-.661 1.083.642.642 0 0 1 .112.21.026.026 0 0 1-.004 0v.003a.784.784 0 0 1 .456-.134.784.784 0 0 1 .661.392.9.9 0 0 1 .665-.27.896.896 0 0 1 .587.236.994.994 0 0 1 .982-.736.99.99 0 0 1 .362.079v.022a1.1 1.1 0 0 1 1.061-1.072 1.326 1.326 0 0 1-.123-.736c.056-.46.34-.837.725-1.035l.003.004a1.102 1.102 0 0 1-.31-.795 1.106 1.106 0 0 1 .232-.654 1.02 1.02 0 0 1-.452-1.251.915.915 0 0 1-.822-.934.923.923 0 0 1 .011-.142.74.74 0 0 1-.157.015.74.74 0 0 1-.698-.572.661.661 0 0 1-.385.112.667.667 0 0 1-.627-.512.418.418 0 0 1-.217.053.418.418 0 0 1-.18-.045zm-.964.93a1.36 1.36 0 0 1-.336.042c-.112 0-.22-.012-.322-.038a.418.418 0 0 1-.06.295.422.422 0 0 1-.343.195.665.665 0 0 1-.792.844.736.736 0 0 1-.112.478.74.74 0 0 1-1.02.224.915.915 0 0 1-.127.306.915.915 0 0 1-1.266.28.919.919 0 0 1-.183-.153v.004a1.02 1.02 0 0 1-1.408.31 1.012 1.012 0 0 1-.374-.418c-.355.239-.83.261-1.214.015a1.113 1.113 0 0 1-.21-.172.65.65 0 0 1-.081.105.784.784 0 0 1 .336.336.784.784 0 0 1-.034.77.89.89 0 0 1 .553.455.896.896 0 0 1 .075.624.994.994 0 0 1 1.12.515.99.99 0 0 1 .101.355 1.098 1.098 0 0 1 1.431.43 1.326 1.326 0 0 1 .587-.46c.43-.172.896-.104 1.255.142a1.106 1.106 0 0 1 .549-.65 1.106 1.106 0 0 1 .683-.108 1.02 1.02 0 0 1 .553-.893 1.02 1.02 0 0 1 .333-.104.916.916 0 0 1 .425-1.17.919.919 0 0 1 .131-.052.736.736 0 0 1-.09-.134.738.738 0 0 1 .169-.886.661.661 0 0 1-.28-.284.67.67 0 0 1 .149-.799.418.418 0 0 1-.15-.164.418.418 0 0 1-.048-.24z"
+                      />
+                    </svg>
+                  </div>
+                  <span>codewars</span>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://www.frontendmentor.io/profile/yeldynov"
+                  rel="author"
+                  class="contact-info__item"
+                >
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      role="img"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <title>Frontend Mentor</title>
+                      <path
+                        d="M12.1706 1.2719a.732.732 0 00-.7186.732v13.914a.732.732 0 00.732.732.732.732 0 00.7318-.732V2.004a.732.732 0 00-.7452-.732zm11.0741 4.1685a.7339.7339 0 00-.2764.063L16.686 8.307a.7329.7329 0 000 1.3361l6.2823 2.8134a.7378.7378 0 00.2993.0648.732.732 0 00.2973-1.401l-4.786-2.1443 4.786-2.1366a.7339.7339 0 00.3698-.9664.7339.7339 0 00-.69-.4327zm-22.499 5.032a.7316.7316 0 00-.7223.9149c1.736 6.677 7.7748 11.341 14.6822 11.341a.732.732 0 000-1.464 13.7055 13.7055 0 01-13.266-10.2449.7316.7316 0 00-.6939-.547z"
+                      />
+                    </svg>
+                  </div>
+                  <span>Frontend Mentor</span>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://yeldynov-dev.netlify.app/"
+                  rel="author"
+                  class="contact-info__item"
+                >
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="1em"
+                      viewBox="0 0 512 512"
+                    >
+                      <path
+                        d="M176 56V96H336V56c0-4.4-3.6-8-8-8H184c-4.4 0-8 3.6-8 8zM128 96V56c0-30.9 25.1-56 56-56H328c30.9 0 56 25.1 56 56V96v32V480H128V128 96zM64 96H96V480H64c-35.3 0-64-28.7-64-64V160c0-35.3 28.7-64 64-64zM448 480H416V96h32c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64z"
+                      />
+                    </svg>
+                  </div>
+                  <span>Projects</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="resume__block">
+            <div class="intro">
+              <div class="intro__icon-wrapper">
+                <svg
+                  class="intro__icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7
+                      24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0
+                      26.5 21.5 48 48 48h128c26.5 0 48-21.5
+                      48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64
+                      64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6
+                      32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5
+                      48-48V304c0-26.5-21.5-48-48-48z"
+                  ></path>
+                </svg>
+              </div>
+              <p class="intro_text">
+                I'm a Javascript Developer from Kharkiv, Ukraine 🇺🇦. <br />
+                I describe myself as a passionate developer who loves coding,
+                open source, and the web platform ❤️.<br />
+                I like learining new stuff, grow as a developer and support
+                others.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="resume__block">
+            <div class="skills">
+              <h3 class="skills__header">Skills</h3>
+              <p>
+                <a href="https://angular.io" target="_blank" rel="noreferrer">
+                  <img
+                    src="https://angular.io/assets/images/logos/angular/angular.svg"
+                    alt="angular"
+                    width="40"
+                    height="40"
+                  /> </a
+                ><a
+                  href="https://azure.microsoft.com/en-in/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg"
+                    alt="azure"
+                    width="40"
+                    height="40"
+                  />
+                </a>
+                <a href="https://babeljs.io/" target="_blank" rel="noreferrer">
+                  <img
+                    src="https://www.vectorlogo.zone/logos/babeljs/babeljs-icon.svg"
+                    alt="babel"
+                    width="40"
+                    height="40"
+                  />
+                </a>
+                <a
+                  href="https://getbootstrap.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
+                    alt="bootstrap"
+                    width="40"
+                    height="40"
+                  />
+                </a>
+                <a
+                  href="https://www.w3schools.com/cs/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg"
+                    alt="csharp"
+                    width="40"
+                    height="40"
+                  />
+                </a>
+                <a
+                  href="https://www.w3schools.com/css/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+                    alt="css3"
+                    width="40"
+                    height="40"
+                  />
+                </a>
+                <a
+                  href="https://dotnet.microsoft.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg"
+                    alt="dotnet"
+                    width="40"
+                    height="40"
+                  />
+                </a>
+                <a
+                  href="https://expressjs.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
+                    alt="express"
+                    width="40"
+                    height="40"
+                  />
+                </a>
+                <a
+                  href="https://www.figma.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg"
+                    alt="figma"
+                    width="40"
+                    height="40"
+                  />
+                </a>
+                <a
+                  href="https://firebase.google.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg"
+                    alt="firebase"
+                    width="40"
+                    height="40"
+                  />
+                </a>
+                <a
+                  href="https://www.gatsbyjs.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="https://www.vectorlogo.zone/logos/gatsbyjs/gatsbyjs-icon.svg"
+                    alt="gatsby"
+                    width="40"
+                    height="40"
+                  />
+                </a>
+                <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
+                  <img
+                    src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
+                    alt="git"
+                    width="40"
+                    height="40"
+                  />
+                </a>
+                <a href="https://graphql.org" target="_blank" rel="noreferrer">
+                  <img
+                    src="https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg"
+                    alt="graphql"
+                    width="40"
+                    height="40"
+                  />
+                </a>
+                <a href="https://heroku.com" target="_blank" rel="noreferrer">
+                  <img
+                    src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg"
+                    alt="heroku"
+                    width="40"
+                    height="40"
+                  />
+                </a>
+                <a
+                  href="https://www.w3.org/html/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+                    alt="html5"
+                    width="40"
+                    height="40"
+                  />
+                </a>
+                <a href="https://www.java.com" target="_blank" rel="noreferrer">
+                  <img
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
+                    alt="java"
+                    width="40"
+                    height="40"
+                  />
+                </a>
+                <a
+                  href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+                    alt="javascript"
+                    width="40"
+                    height="40"
+                  />
+                </a>
+                <a href="https://mariadb.org/" target="_blank" rel="noreferrer">
+                  <img
+                    src="https://www.vectorlogo.zone/logos/mariadb/mariadb-icon.svg"
+                    alt="mariadb"
+                    width="40"
+                    height="40"
+                  />
+                </a>
+                <a
+                  href="https://materializecss.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="https://raw.githubusercontent.com/prplx/svg-logos/5585531d45d294869c4eaab4d7cf2e9c167710a9/svg/materialize.svg"
+                    alt="materialize"
+                    width="40"
+                    height="40"
+                  />
+                </a>
+                <a
+                  href="https://www.mongodb.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
+                    alt="mongodb"
+                    width="40"
+                    height="40"
+                  />
+                </a>
+                <a
+                  href="https://www.microsoft.com/en-us/sql-server"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg"
+                    alt="mssql"
+                    width="40"
+                    height="40"
+                  />
+                </a>
+                <a
+                  href="https://www.mysql.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
+                    alt="mysql"
+                    width="40"
+                    height="40"
+                  />
+                </a>
+                <a href="https://nextjs.org/" target="_blank" rel="noreferrer">
+                  <img
+                    src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg"
+                    alt="nextjs"
+                    width="40"
+                    height="40"
+                  />
+                </a>
+                <a href="https://nodejs.org" target="_blank" rel="noreferrer">
+                  <img
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
+                    alt="nodejs"
+                    width="40"
+                    height="40"
+                  />
+                </a>
+                <a
+                  href="https://www.oracle.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg"
+                    alt="oracle"
+                    width="40"
+                    height="40"
+                  />
+                </a>
+                <a
+                  href="https://www.photoshop.com/en"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg"
+                    alt="photoshop"
+                    width="40"
+                    height="40"
+                  />
+                </a>
+                <a href="https://postman.com" target="_blank" rel="noreferrer">
+                  <img
+                    src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
+                    alt="postman"
+                    width="40"
+                    height="40"
+                  />
+                </a>
+                <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+                  <img
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+                    alt="react"
+                    width="40"
+                    height="40"
+                  />
+                </a>
+                <a
+                  href="https://reactnative.dev/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="https://reactnative.dev/img/header_logo.svg"
+                    alt="reactnative"
+                    width="40"
+                    height="40"
+                  />
+                </a>
+                <a href="https://redux.js.org" target="_blank" rel="noreferrer">
+                  <img
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg"
+                    alt="redux"
+                    width="40"
+                    height="40"
+                  />
+                </a>
+                <a
+                  href="https://sass-lang.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg"
+                    alt="sass"
+                    width="40"
+                    height="40"
+                  />
+                </a>
+                <a
+                  href="https://www.sqlite.org/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg"
+                    alt="sqlite"
+                    width="40"
+                    height="40"
+                  />
+                </a>
+                <a
+                  href="https://tailwindcss.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
+                    alt="tailwind"
+                    width="40"
+                    height="40"
+                  />
+                </a>
+                <a
+                  href="https://www.typescriptlang.org/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
+                    alt="typescript"
+                    width="40"
+                    height="40"
+                  />
+                </a>
+                <a href="https://unity.com/" target="_blank" rel="noreferrer">
+                  <img
+                    src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg"
+                    alt="unity"
+                    width="40"
+                    height="40"
+                  />
+                </a>
+                <a
+                  href="https://webpack.js.org"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="https://raw.githubusercontent.com/devicons/devicon/d00d0969292a6569d45b06d3f350f463a0107b0d/icons/webpack/webpack-original-wordmark.svg"
+                    alt="webpack"
+                    width="40"
+                    height="40"
+                  />
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="resume__block">
+            <div class="main-info fh">
+              <div class="experiences">
+                <h3 class="experiences__header">Experiences</h3>
+
+                <div class="experiences__company">
+                  <div class="experiences__company-header">
+                    <span class="experiences__company-header-durability"
+                      >Summer 2023 - Now</span
+                    >
+                    <h3 class="experiences__company-header-name">
+                      <a
+                        target="_blank"
+                        href="https://www.upwork.com/freelancers/~01666af90b1c137ab9
+                        "
+                      >
+                        <h3 class="experiences__company-project-name">
+                          Upwork
+                        </h3>
+                      </a>
+                    </h3>
+                    <div>
+                      <ul>
+                        <li><strong>Role:</strong> Fullstack Developer</li>
+                        <li><strong>Duration:</strong> 6+ months</li>
+                        <li>
+                          <strong>Description:</strong> Recognized as a Top
+                          Rated professional on Upwork.
+                          <br />
+                          Specialized in web development, HTML/CSS design, JS
+                          and SEO programming. <br />
+                          Successfully tackled a range of projects, from small
+                          website edits to comprehensive SEO programming.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="experiences__company">
+                  <div class="experiences__company-header">
+                    <span class="experiences__company-header-durability"
+                      >Spring - Summer 2023</span
+                    >
+                    <h3 class="experiences__company-header-name">
+                      <a
+                        target="_blank"
+                        href="https://github.com/yeldynov/gvozdi-v6"
+                      >
+                        <h3 class="experiences__company-project-name">
+                          StepSure App
+                        </h3>
+                      </a>
+                    </h3>
+                    <div>
+                      <ul>
+                        <li><strong>Role:</strong> Fullstack Developer</li>
+                        <li><strong>Duration:</strong> 3 months</li>
+                        <li>
+                          <strong>Description:</strong> Worked as a Fullstack
+                          Developer on the StepSure mobile app. Collaborated
+                          with the UI/UX designer and develop the frontend using
+                          React Native, ensuring a seamless user experience.
+                          Implemented features such as activity tracking, goal
+                          setting, achievements, progress insights, and reminder
+                          notifications. On the backend, utilized technologies
+                          such as Node.js and MongoDB to handle data storage,
+                          implement APIs, and manage user authentication.
+                          Implemented responsive layouts, navigation, and
+                          integrated frontend with backend APIs to provide
+                          real-time updates.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="additional-info fv">
+                <div class="additional-info__education">
+                  <h3 class="additional-info__education-header">Education</h3>
+                  <div class="additional-info__education-university">
+                    <span
+                      class="additional-info__education-university-durability"
+                      >2022 - 2023</span
+                    >
+                    <h3
+                      class="additional-info__education-university-speciality"
+                    >
+                      Javascript/React courses
+                    </h3>
+                    <p class="additional-info__education-university-name">
+                      Udemy
+                    </p>
+                    <ul style="font-size: 14px; margin-bottom: 3rem">
+                      <li>
+                        React - The Complete Guide (incl Hooks, React Router,
+                        Redux)
+                      </li>
+                      <li>Modern React with Redux</li>
+                      <li>
+                        React, NodeJS, Express & MongoDB - The MERN Fullstack
+                        Guide
+                      </li>
+                      <li>JavaScript Understanding the Weird Parts</li>
+                      <li>
+                        JavaScript Web Projects: 20 Projects to Build Your
+                        Portfolio
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="additional-info__education-university">
+                    <span
+                      class="additional-info__education-university-durability"
+                      >2020 - 2022</span
+                    >
+                    <h3
+                      class="additional-info__education-university-speciality"
+                    >
+                      Software Engineering
+                    </h3>
+                    <p class="additional-info__education-university-name">
+                      ITStep academy Kharkiv
+                    </p>
+                    <ul style="font-size: 14px">
+                      <li>
+                        Studied the basics of programming using C++, C# and Java
+                      </li>
+                      <li>Learned basics of Javascript, React and Angular</li>
+                      <li>
+                        Studied basics of databases (SQL, Mongodb), Azure
+                        Services
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="additional-info__languages">
+                  <h3 class="additional-info__languages-header">Other</h3>
+                  <p class="additional-info__languages-item">English: B1</p>
+                  <p class="additional-info__languages-item">Spanish: A2</p>
+                  <p class="additional-info__languages-item">
+                    Master Degree in BA
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
