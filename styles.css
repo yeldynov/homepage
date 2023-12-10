@@ -183,6 +183,10 @@ body {
   margin-right: 50px;
 }
 
+.experiences__company {
+  margin-bottom: 25px;
+}
+
 .experiences__header {
   color: var(--secondary-text-color);
   text-align: left;
